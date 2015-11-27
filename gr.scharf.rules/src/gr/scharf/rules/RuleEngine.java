@@ -68,4 +68,8 @@ public class RuleEngine {
         }
         return b.toString();
     }
+
+	public void setState(String name, Object value) {
+		store.setValue(name, value);
+	}
 }
